@@ -36,8 +36,8 @@ function Footer() {
      {/* Social buttons */}
   
     </div>
-    <div className="footer-copyright text-center py-3">© 2019 Copyright: Biridiana Hinojosa</div>
-    <p className="footer text-center py-3">Last updated: August 16 , 2019</p>
+    <div className="footer-copyright text-center py-3 mt-2">© 2019 Copyright: Biridiana Hinojosa</div>
+    <p className="footer text-center py-3">Last updated: October 1, 2019</p>
     </React.Fragment>
     )
 }

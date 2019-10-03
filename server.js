@@ -1,8 +1,14 @@
 require('dotenv').config()
-const express =require('express')
-const app = express()
-const path = require('path')
+const morgan = require("morgan");
+const helmet = require('helmet');
+const express =require('express');
+require("dotenv").config();
+const app = express();
+const path = require('path');
 const PORT = process.env.PORT || 4001;
+const cors = require('cors');
+
+app.use(cors());
 
 const apiRoutes = require('./routes/apiRoutes')
 

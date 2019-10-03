@@ -1,11 +1,14 @@
 import React from 'react';
+import producthero from '../../Assets/Img/lightgold.jpg';
 
 function Productsheader() {
     return(
     <React.Fragment>
 
         {/* Hero */}
-        <div className="hero"></div>
+        <div className="hero">
+          <img src={producthero} height="400px" width="1400px" alt="gold background hero"/>
+        </div>
 
         {/* Main Header
         Section: Products v.1  */}
